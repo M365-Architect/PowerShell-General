@@ -1,6 +1,6 @@
 Clear-Host
 $ErrorActionPreference = "SilentlyContinue"
-$numberOfBackgrounds = 20
+$numberOfBackgrounds = 100
 $targetFolder = "C:\tmp\Teams Backgrounds\"
 $FilenameStart = "https://adoption.azureedge.net/wp-content/custom-backgrounds-gallery/user-submitted-background-"
 #$FilenameStart = "https://adoption.azureedge.net/wp-content/custom-backgrounds-gallery/VIVA-background-Abstract-0"
