@@ -14,5 +14,5 @@ $FilenameFormat = ".jpg"
 $list = Get-ChildItem $targetFolder
 foreach($file in $list)
 {
-    Copy-Item $file.FullName -Destination ($env:APPDATA + "\Microsoft\Teams\backgrounds\")
+    Copy-Item $file.FullName -Destination ($env:APPDATA + "\Microsoft\Teams\backgrounds\Uploads")
 }
